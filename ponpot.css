@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.loading {
+	background-color: #0c0c0c;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	z-index: 1000;
+  }
+
+  .bgClip {
+	text-align: center;
+	background: url("https://wallpaperaccess.com/full/3919221.jpg");
+	background-repeat: repeat-x;
+	background-position: 0 0;
+	font-size: 150px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	color: transparent;
+	-webkit-font-smoothing: antialiased;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin: 0;
+	-webkit-animation: BackgroundAnimated 70s linear infinite;
+	animation: BackgroundAnimated 70s linear infinite;
+  }
+
+
+
+@keyframes BackgroundAnimated {
+	from {
+	  background-position: 0 0;
+	}
+	to {
+	  background-position: 100% 0;
+	}
+  }
+
+  @-webkit-keyframes BackgroundAnimated {
+	from {
+	  background-position: 0 0;
+	}
+	to {
+	  background-position: 100% 0;
+	}
+  }
