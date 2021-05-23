@@ -1,5 +1,5 @@
 ### Hi there 👋
-this is just my blog. show some love!
+this is just my blog :)
 
 <!--
 **Aloo264/Aloo264** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
